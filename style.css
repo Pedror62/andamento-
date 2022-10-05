@@ -1,6 +1,6 @@
 *{
     
-    background-color:black;
+    background-color: black;
     color: white;
 
 }
@@ -58,6 +58,29 @@ li{
     font-size:28px;
     padding: 0px;
     margin: 0px;
+}
+
+
+.email{
+    display: flex;
+    justify-content: center;
+    margin: 3px;
+    padding: 3px;
+    background-color: #007e2e;
+    margin-bottom: 5px;
+    padding: 25px;
+    font: #fff;
+    border-radius: 8px;
+    border: solid 3px black;
+  
+}
+.email font{
+    background-color: #007e2e;
+}
+.email button{
+    display: flex;
+    text-align: center;
+    margin: 3px;
 }
 
 .list img{
