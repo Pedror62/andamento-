@@ -36,6 +36,7 @@ li{
     border-radius: 50%;
     border: solid 3px;
     color:#05bf49;
+    box-shadow: 8px 8px 15px rgba(16, 253, 36, 0.716);
 }
 
 .testando{
@@ -62,25 +63,45 @@ li{
 
 
 .email{
-    display: flex;
-    justify-content: center;
-    margin: 3px;
-    padding: 3px;
-    background-color: #007e2e;
-    margin-bottom: 5px;
+    display:flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    width: 560px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
     padding: 25px;
-    font: #fff;
     border-radius: 8px;
     border: solid 3px black;
-  
+    align-items: center;
+    border-radius:10px;
+    box-shadow: 8px 8px 15px rgba(16, 253, 36, 0.716);
+    margin-top: 20px;
 }
-.email font{
-    background-color: #007e2e;
+.email p{
+    background-color: #fff;
+    color: #007e2e;
 }
 .email button{
     display: flex;
     text-align: center;
     margin: 3px;
+}
+.contato {
+   
+    background-color:rgb(255, 255, 255);
+    border-radius:10px;
+    padding:8px;
+    width: 250px;
+    margin:auto;
+    text-align: center;
+    box-shadow: 8px 8px 15px rgba(16, 253, 36, 0.716);
+    border: solid 3px black;
+    
+}
+.contato p{
+    background-color: #fff;
+   color: #007e2e;
 }
 
 .list img{
@@ -114,11 +135,13 @@ nav  ul li a:hover{
     
 }
 
-/*footer ul li a:hover{
+footer ul li a:hover{
     text-transform: capitalize;
-    color: #e30000;
+    color: #005dc8;
+    text-decoration: none;
+    align-items: center;
    
-}*/
+}
 
 .copy{
     text-align: center;
